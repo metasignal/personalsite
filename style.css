@@ -1,13 +1,27 @@
 body {
-  font-family: "neue haas unica", helvetica neue;
-  font-size: 1.1em;
-  line-height: 1.5em;
+  font-family: "nitti mono", helvetica neue;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 1.3em;
   margin: 0 auto;
   background-color: #1A1919;
   color:white;
 }
 
+a {
+  color:white;
+}
+
 #inner {
   margin: 40px;
-  width:400px;
+  width:360px;
+}
+
+@font-face {
+  font-family: 'nitti mono';
+  src: url('NittiGrotesk-SemiLight.ttf') format('truetype');
+}
+
+#links li {
+  list-style: none;
 }
