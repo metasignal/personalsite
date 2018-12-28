@@ -1,27 +1,44 @@
 body {
-  font-family: "nitti mono", helvetica neue;
-  font-weight: 200;
-  font-size: 1.3em;
-  line-height: 1.3em;
+  font-family: "apercuMono", Times;
+
+  font-size: .8em;
+  line-height: 1.6em;
   margin: 0 auto;
-  background-color: #1A1919;
-  color:white;
+  background-color: white;
+  color:#111111;
+}
+
+p {
+  font-weight: 500;
+  float:left;
+}
+
+h1 {
+  font-weight:normal;
+  font-size: 1.3em;
+}
+
+h2 {
+  font-weight:normal;
+  font-size: 1.3em;
 }
 
 a {
-  color:white;
+  text-decoration: underline;
 }
 
 #inner {
   margin: 40px;
-  width:360px;
+  width:322px;
 }
+
+
 
 @font-face {
-  font-family: 'nitti mono';
-  src: url('NittiGrotesk-SemiLight.ttf') format('truetype');
+  font-family: 'apercuMono';
+  src: url('fonts/ApercuMono.otf') format('opentype');
 }
 
-#links li {
+/* #links li {
   list-style: none;
-}
+} */
