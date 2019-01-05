@@ -1,7 +1,7 @@
 body {
   font-family: "apercuMono", Times;
 
-  font-size: .8em;
+  font-size: .95em;
   line-height: 1.6em;
   margin: 0 auto;
   background-color: white;
@@ -29,10 +29,20 @@ a {
 
 #inner {
   margin: 40px;
+  width:360px;
+}
+
+#sidebar{
+  position:fixed;
+  left:0;
+  top:0;
+  background-color:white;
   width:322px;
 }
 
-
+#fullscreenImage {
+  background-color: #d3d3d;
+}
 
 @font-face {
   font-family: 'apercuMono';
