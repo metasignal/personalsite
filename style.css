@@ -1,8 +1,8 @@
 body {
-  font-family: "apercuMono", Times;
+  font-family: "neue", Times;
 
-  font-size: .95em;
-  line-height: 1.6em;
+  font-size: 1.05em;
+  line-height: 1.25em;
   margin: 0 auto;
   background-color: white;
   color:#111111;
@@ -11,6 +11,7 @@ body {
 p {
   font-weight: 500;
   float:left;
+  margin-top: 10px;
 }
 
 h1 {
@@ -29,7 +30,7 @@ a {
 
 #inner {
   margin: 40px;
-  width:360px;
+  width:347px;
 }
 
 #sidebar{
@@ -47,6 +48,11 @@ a {
 @font-face {
   font-family: 'apercuMono';
   src: url('fonts/ApercuMono.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'neue';
+  src: url('fonts/Neue Haas Unica Pro.otf') format('opentype');
 }
 
 /* #links li {
