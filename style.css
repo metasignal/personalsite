@@ -74,9 +74,10 @@ h1 {
   font-weight:normal;
   font-size: 1.8em;
 	font-family:"nitti-light", Helvetica, Times;
-	padding-top:4px;
+	padding-top:12px;
 	padding-bottom:10px;
 }
+
 
 h2 {
   font-weight:normal;
@@ -127,7 +128,7 @@ div.clear {
 
 h1:after {
 	position: absolute;
-	top:32px;
+	top:40px;
   content: '';
   width: 2px;
   height: 42px;
