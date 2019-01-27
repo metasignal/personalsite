@@ -155,11 +155,11 @@ h1:after {
  	/* body {background-color: red;} */
 	#col-2 {
 		float:left;
-		width:300px;
+		width:320px;
 	}
 	#col-1 {
 		float: left;
-		width:325px;
+		width:320px;
 	}
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
