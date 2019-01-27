@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
   font-family: "nitti", Helvetica, Times;
   font-size: 1.18em;
@@ -72,6 +74,8 @@ h1 {
   font-weight:normal;
   font-size: 1.8em;
 	font-family:"nitti-light", Helvetica, Times;
+	padding-top:4px;
+	padding-bottom:10px;
 }
 
 h2 {
@@ -88,21 +92,20 @@ a:visited {
 }
 
 #container {
-margin-left: 40px;
-width: 400px;
 }
 
 .column {
-	float: left;
-	width:480px;
   margin: 40px;
 }
 
 #col-1 {
+float: left;
+	width:225px;
 }
 
 #col-2 {
 float:right;
+	width:510px;
 }
 
 @font-face {
@@ -124,13 +127,16 @@ div.clear {
 } */
 
 h1:after {
+	position: absolute;
+	top:32px;
   content: '';
   width: 2px;
-  height: 28px;
+  height: 42px;
   background: black;
   opacity: 0;
   display: inline-block;
   animation: blink .6s ease-out infinite alternate;
+	z-index: 1000;
 }
 
 @keyframes blink {
@@ -140,4 +146,31 @@ h1:after {
   100% {
     opacity: 1;
   }
+}
+
+
+
+@media screen and (min-width: 827px) {
+    /* tablets and desktop */
+
+		#col-2 {
+			float:left;
+			width:440px;
+		}
+}
+
+@media screen and (max-width: 828px) {
+    /* phones */
+		#col-2 {
+			float:left;
+			width:440px;
+		}
+}
+
+@media screen and (max-width: 827px) and (orientation: portrait) {
+    /* portrait phones */
+		#col-2 {
+			float:left;
+			width:440px;
+		}
 }
