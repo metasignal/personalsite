@@ -86,13 +86,16 @@ h2 {
 
 a {
   text-decoration: none;
+  color:#1C1C1C;
 }
 
 a:visited {
 	  color:#1C1C1C;
 }
 
-
+a#cta {
+	color:blue;
+}
 
 .column {
   margin: 40px;
@@ -122,9 +125,9 @@ div.clear {
     clear:both;
 }
 
-/* #links li {
-  list-style: none;
-} */
+#links {
+	margin-top: 40px;
+}
 
 h1:after {
 	position: absolute;
@@ -207,7 +210,7 @@ h1:after {
 	/* body {background-color: purple;} */
 	#col-2 {
 		float:right;
-		width:450px;
+		width:490px;
 	}
 	#col-1 {
 		float: left;
