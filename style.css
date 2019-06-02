@@ -51,8 +51,8 @@ table {
 
 body {
   font-family: "nitti", Helvetica, Times;
-  font-size: 1.18em;
-  line-height: 1.40em;
+  font-size: 1.65em;
+  line-height: 1.30em;
   margin: 0 auto;
   background-color: white;
   color:#1C1C1C;
@@ -68,14 +68,6 @@ p {
 
 #tagline {
 	margin-top: 40px;
-}
-
-h1 {
-  font-weight:normal;
-  font-size: 1.8em;
-	font-family:"nitti-light", Helvetica, Times;
-	padding-top:12px;
-	padding-bottom:10px;
 }
 
 
@@ -101,24 +93,38 @@ a#cta {
   margin: 40px;
 }
 
-#col-1 {
-	float: left;
-	width:225px;
+#hero {
+	float:left;
+	width:510px;
 }
 
-#col-2 {
-	float:right;
-	width:510px;
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+
+  /*whatever width you want*/
 }
 
 @font-face {
   font-family: 'nitti-light';
-  src: url('fonts/NittiGrotesk-Light.ttf') format('truetype');
+  src: url('fonts/FoundersGrotesk-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'nitti';
-  src: url('fonts/NittiGrotesk-Normal.ttf') format('truetype');
+  src: url('fonts/FoundersGrotesk-Regular.otf') format('opentype');
 }
 
 div.clear {
@@ -153,67 +159,43 @@ h1:after {
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
  	/* body {background-color: red;} */
-	#col-2 {
+	#hero {
 		float:left;
-		width:320px;
-	}
-	#col-1 {
-		float: left;
 		width:320px;
 	}
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 	/* body {background-color: yellow;} */
-	#col-2 {
+	#hero {
 		float:left;
 		width:420px;
-	}
-	#col-1 {
-		float: left;
-		width:325px;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 	/* body {background-color: blue;} */
-	#col-2 {
+	#hero {
 		float:left;
-		width:510px;
-	}
-	#col-1 {
-		float: left;
-		width:325px;
+		width:620px;
 	}
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
 	/* body {background-color: green;} */
-	#col-2 {
-		float:right;
-		width:510px;
-	}
-	#col-1 {
-		float: left;
-		width:225px;
+	#hero {
+		float:left;
+		width:620px;
 	}
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
 	/* body {background-color: gray;} */
-	#col-2 {
-		float:right;
-		width:510px;
-	}
-	#col-1 {
-		float: left;
-		width:325px;
+	#hero {
+		float:left;
+		width:620px;
 	}
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 	/* body {background-color: purple;} */
-	#col-2 {
-		float:right;
-		width:510px;
-	}
-	#col-1 {
-		float: left;
-		width:225px;
+	#hero {
+		float:left;
+		width:620px;
 	}
 }
