@@ -51,7 +51,7 @@ table {
 
 body {
   font-family: "nitti", Helvetica, Times;
-  font-size: 1.65em;
+  font-size: 2em;
   line-height: 1.30em;
   margin: 0 auto;
   background-color: white;
@@ -162,13 +162,21 @@ h1:after {
 	#hero {
 		float:left;
 		width:320px;
+
 	}
+	html {
+		font-size: 1em;
+	}
+
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 	/* body {background-color: yellow;} */
 	#hero {
 		float:left;
 		width:420px;
+	}
+	html {
+		font-size: 1em;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -182,20 +190,20 @@ h1:after {
 	/* body {background-color: green;} */
 	#hero {
 		float:left;
-		width:620px;
+		width:740px;
 	}
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
 	/* body {background-color: gray;} */
 	#hero {
 		float:left;
-		width:620px;
+		width:740px;
 	}
 }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
 	/* body {background-color: purple;} */
 	#hero {
 		float:left;
-		width:620px;
+		width:740px;
 	}
 }
