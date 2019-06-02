@@ -175,8 +175,8 @@ h1:after {
 		float:left;
 		width:420px;
 	}
-	html {
-		font-size: 1em;
+	body {
+		font-size: 1.6em;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
